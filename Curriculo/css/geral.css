@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    position: relative; 
+    background-color: #122d44;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+.foto{
+    position: absolute;
+    width: 200px;
+    border-radius: 100%;
+    top: 15%;
+    left: 15%;
+}
+.foto:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px black;
+    top: 10%;
+}
+.nome{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(100%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.habilidade{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-hb{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    font-size: 50px;
+}
+.subtitulo{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.habilidades a{
+    list-style: none;
+    display: inline;
+}
+
+/* Área de Experiencia */
+
+.secundario{
+    width: 90%;
+    margin: 50px auto;
+}
+.experiencia{
+    width: 50%;
+    text-align: justify;
+    float: left;
+}
+.experiencia p{
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+/* Principal */
+main{
+    position: relative;
+    z-index: 1;
+    width: 85%;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    top: 80px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px 2px rgba(160, 160, 160, 0.627);
+    transition: 2s;
+}
+
+/* Footer */
+footer{
+    position: static;
+    text-align: center;
+    z-index: 3;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+}
+h4{
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(90, 90, 90);
+}
