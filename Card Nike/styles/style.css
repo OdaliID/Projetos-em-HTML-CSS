@@ -1,0 +1,134 @@
+
+@import url(‘https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;0,400;1,500&display=swap’);
+
+
+body,html{
+    font-family: ‘IBM Plex Sans’, sans-serif;
+    background: black
+    color: black; 
+    margin: 0px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+header > img{
+    width: 65px;
+    height: 25px;
+}
+.general-description{
+    height: 620px;
+    width: 500px;
+}
+
+div.card-color{
+    background-color: rgb(255, 253, 253);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.335);
+    width: 430px;
+    height: 770px;
+    border-radius: 10px 10px 10px 10px;
+    top: 40px;
+    left: 450px; 
+    position: relative;
+    animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite;
+    
+}
+div.card{
+    background-color: orange;
+    background-image: linear-gradient(to top, #FCC93D, #F72948);
+    width: 430px;
+    height: 610px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: -15px;
+}
+div.descrition{
+    color: white;
+    margin: 20px;
+    overflow: hidden;
+    height: 470px;
+    width: 430px;
+    margin: 0px;
+}
+
+.descrip-parag, h3{
+    margin: 25px;
+}
+
+.air{
+    color: rgba(0,0,0,0.3);
+    font-size: 280px;
+    font-weight: 750;
+    bottom: 240px;
+    right: 30px;
+    position: relative;/* ao container*/
+    width: 540px;
+    height: 310px;
+}
+.shoe{
+    width: 550px;
+    height: 500px;
+    position: relative;/* ao container */
+    bottom: 290px;
+    right: 40px;
+}
+    
+.button{
+    border: solid;
+    width: 150px;
+    height: 50px;
+    border-radius: 18px;
+    color:#8850FF ;
+    border-color: #8850FF;
+    border-width: 3px;
+    font-size: 15px;
+  
+}
+.button:hover{
+    background-color: #8850FF;
+    color: white;
+}
+footer{
+    color: rgb(174, 164, 164);
+    font-size: 14px;
+    position: relative;/* ao container */
+    bottom: 60px;
+    left:140px;
+    position: relative;
+    width: 160px;
+    height: 80px;
+}
+
+
+@keyframes fadeInFromTop{
+    from{
+        opacity:0 ;
+        transform: translateY(0);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes floating{
+    0%{
+        transform: translate(0%) rotate(360deg);
+    }
+    25%{
+        transform: translate(5%, 5%) rotate(365deg);
+    }
+    50%{
+        transform: translate(0%) rotate(360deg);
+    }
+    75%{
+        transform: translate(5%, 5%) rotate(355deg);
+    }
+    100%{
+        transform: translate(0%) rotate(360deg);
+    }
+}
