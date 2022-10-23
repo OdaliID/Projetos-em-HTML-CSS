@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+ul{
+    width: 45%;
+    margin: 20px;
+}
+
+li{
+    border: 1px solid darkgray;
+    padding: 20px;
+    display: flex;
+}
+
+img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.div0{
+    margin-left: 15px;
+}
+
+.div1{
+    font-size: 30px;
+}
+.div2{
+    color: gray;
+    font-size: 20px;
+}
